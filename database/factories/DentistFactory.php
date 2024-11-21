@@ -5,6 +5,7 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use App\Models\Dentist;
 use app\Models\Specialty;
+use GuzzleHttp\BodySummarizer;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Dentist>
@@ -19,6 +20,8 @@ class DentistFactory extends Factory
     public function definition(): array
     {
         return [
+            //nombre unico
+            
             'name' => $this->faker->name(),
             'LastName' => $this->faker->lastName(),
             'email' => $this->faker->safeEmail(),

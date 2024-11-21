@@ -1,0 +1,37 @@
+/* Ajuste de las imágenes para que se vean bien en todas las resoluciones */
+.card-img-top {
+    width: 100%;           /* Asegura que la imagen cubra el ancho de la tarjeta */
+    height: 200px;         /* Ajustamos la altura para que no quede tan grande */
+    object-fit: cover;     /* Mantiene la imagen proporcional, recortando si es necesario */
+    object-position: center; /* Centra la imagen */
+}
+
+/* Para destacar a Jorge Abraham */
+.card.border-primary {
+    border: 2px solid #ffc107; /* Borde amarillo para destacar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para resaltar */
+}
+
+/* Estilo para las tarjetas generales */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Efecto al pasar el cursor */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+}
+
+/* Para las imágenes de los dentistas (si quieres ajustarlas más) */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Controlamos la altura para que no quede desproporcionada */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    object-position: center; /* Mantiene la imagen centrada */
+}
+
+/* Ajustes para los contenedores de las tarjetas */
+.card-body {
+    padding: 20px; /* Espaciado dentro de las tarjetas */
+}

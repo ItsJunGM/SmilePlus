@@ -1,0 +1,150 @@
+/* public/css/styles.css */
+.navbar-custom {
+    background-color: #ffffff; /* Fondo blanco */
+    height: 120px; /* Altura del navbar */
+    padding-top: 10px;
+    padding-bottom: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    }
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333 !important; /* Color de texto oscuro */
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #333 !important; /* Enlaces en color oscuro */
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #48a1ff !important; /* Color al pasar el mouse */
+}
+
+/* Banner */
+.banner {
+    background: url('/images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+/* Sección de nosotros */
+.about-us {
+    background-color: #f9f9f9;
+}
+
+/* Sección ¿Qué hacemos en SmilePlus? */
+.about-us h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #004085;
+}
+
+/* Sección ¿Por qué elegirnos? */
+.benefits h3 {
+    font-size: 2.5rem;
+    color: #ffc107;
+}
+
+.benefits .col-md-4 h4 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.benefits i {
+    color: #ffc107;
+}
+
+/* Sección Nuestro Objetivo */
+.our-goal h2 {
+    font-size: 3rem;
+    color: #004085;
+    font-weight: bold;
+}
+
+.our-goal p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Botón de agendar cita */
+.cta .btn {
+    padding: 15px 35px;
+    font-size: 1.3rem;
+    background-color: #ffc107;
+    color: #fff;
+    border-radius: 50px;
+}
+
+/* Sección ¿Qué hacemos en SmilePlus? */
+.about-us p {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 400;
+}
+
+.benefits .col-md-4 h4 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.benefits .col-md-4 p {
+    color: #777;
+}
+
+.our-goal {
+    background-color: #f9f9f9;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    background: #fff;
+    padding: 20px;
+    border-left: 4px solid #ffc107;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Botón */
+/* Sección CTA - Acción final */
+.cta {
+    background-color: #007bff;
+    color: #fff;
+    padding: 4rem 0;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cta .display-4 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.cta .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #f8f9fa;
+}
+
+.cta .btn {
+    font-size: 1.2rem;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+
